@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMYK Color Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <img src="assets/images/logo.png" alt="CMYK" id="logo" />
+  </div>
+  <div class="nav-buttons">
+    <button class="login-btn">Login</button>
+    <button class="signup-btn">Signup</button>
+  </div>
+</nav>
+
+<main>
+  <div class="content">
+    <h1 class="title">
+      Analyzing color<br />
+      related area and ink<br />
+      consumption in image
+    </h1>
+    <button class="get-started-btn">Get Started</button>
+  </div>
+
+  <div class="color-wheel">
+    <img src="assets/images/main-image.png" alt="CMYK"/>
+
+  </div>
+</main>
+
+<!-- Login Modal -->
+<div class="modal-overlay">
+  <div class="modal">
+    <div class="modal-logo">
+      <img src="assets/images/logo.png" alt="CMYK">
+    </div>
+    <h2 class="modal-title">Welcome to CMYK</h2>
+    <p class="modal-subtitle">Sign up or login below to manage your service</p>
+
+    <div class="modal-tabs">
+      <div class="tab active">Login</div>
+      <div class="tab">Sign up</div>
+    </div>
+
+    <div class="login-modal">
+      <div class="login-options">
+        <div class="google-login">
+          <img src="assets/images/icons/google-icon.png" alt="Google">
+          <span>Login with Google</span>
+        </div>
+      </div>
+
+      <div class="divider">
+        <span>or with continue with email</span>
+      </div>
+
+      <div class="input-group">
+        <div class="input-field">
+          <img src="assets/images/icons/email-icon.png" alt="Email">
+          <input type="email" placeholder="Enter your Email">
+        </div>
+        <div class="input-field">
+          <img src="assets/images/icons/password-icon.png" alt="Password">
+          <input type="password" placeholder="Enter your Password">
+        </div>
+      </div>
+
+      <a href="#" class="forgot-password">Forget Password?</a>
+
+      <button class="login-button">Login</button>
+    </div>
+
+    <div class="signup-modal">
+      <div class="login-options">
+        <div class="google-login">
+          <img src="assets/images/icons/google-icon.png" alt="Google">
+          <span>Sign up with Google</span>
+        </div>
+      </div>
+
+      <div class="divider">
+        <span>or with continue with email</span>
+      </div>
+
+      <div class="input-group">
+        <div class="input-field">
+          <img src="assets/images/icons/username-icon.png" alt="Username">
+          <input type="text" placeholder="Enter your Name">
+        </div>
+        <div class="input-field">
+          <img src="assets/images/icons/telephone-icon.png" alt=Telephone">
+          <input type="tel" placeholder="Enter your Telephone Number">
+        </div>
+        <div class="input-field">
+          <img src="assets/images/icons/email-icon.png" alt="Email">
+          <input type="email" placeholder="Enter your Email">
+        </div>
+        <div class="input-field">
+          <img src="assets/images/icons/password-icon.png" alt="Password">
+          <input type="password" placeholder="Enter your Password">
+        </div>
+        <div class="input-field">
+          <img src="assets/images/icons/password-icon.png" alt="Password">
+          <input type="password" placeholder="Re-Enter your Password">
+        </div>
+      </div>
+
+      <button class="login-button">Sign Up</button>
+    </div>
+
+    <p class="terms">
+      By signing up, you agree to our <a href="#">Terms of service</a> and <a href="#">privacy policy</a>
+    </p>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
